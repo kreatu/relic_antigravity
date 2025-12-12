@@ -22,9 +22,9 @@ import v4 from './assets/1.4.webp';
 
 // Horizontal Interior
 import h1 from './assets/2.1.jpg';
-import h2 from './assets/2.2.PNG';
-import h3 from './assets/2.3.PNG';
-import h4 from './assets/2.4.PNG';
+import h2 from './assets/2.2.webp';
+import h3 from './assets/2.3.webp';
+import h4 from './assets/2.4.webp';
 import h5 from './assets/2.5.PNG';
 
 function App() {
