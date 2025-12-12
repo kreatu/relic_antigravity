@@ -21,7 +21,7 @@ const Manifest: React.FC<ManifestProps> = ({ textureSrc }) => {
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 1, delay: 0.3 }}
-                    className="space-y-8 font-serif text-2xl md:text-4xl leading-relaxed text-gray-200"
+                    className="space-y-8 font-serif text-2xl md:text-4xl leading-relaxed text-gray-200 drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]"
                 >
                     <p>
                         Ми не створюємо мистецтво. <br className="hidden md:block" />
