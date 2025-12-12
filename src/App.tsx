@@ -16,8 +16,9 @@ import img3 from './assets/3.JPG';
 import img4 from './assets/4.JPG';
 // Vertical Interior
 import v1 from './assets/1.1.jpg';
-import v2 from './assets/1.2.PNG';
-import v3 from './assets/1.3.PNG';
+import v2 from './assets/1.2.webp';
+import v3 from './assets/1.3.webp';
+import v4 from './assets/1.4.webp';
 
 // Horizontal Interior
 import h1 from './assets/2.1.jpg';
@@ -34,7 +35,7 @@ function App() {
       <Manifest textureSrc={textureImg} />
       <Product productImages={[img1, img2, img3, img4]} />
       <InSitu
-        verticalImages={[v1, v2, v3]}
+        verticalImages={[v1, v2, v3, v4]}
         horizontalImages={[h1, h2, h3, h4, h5]}
       />
       <Partners />
