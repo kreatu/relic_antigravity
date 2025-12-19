@@ -100,9 +100,14 @@ const Product: React.FC<ProductProps> = ({ productImages }) => {
                         </div>
                     </div>
 
-                    <button className="px-8 py-4 bg-[#D4AF37] text-black text-sm tracking-widest uppercase hover:bg-white transition-colors duration-300">
+                    <a
+                        href="https://t.me/bistycrime"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block px-8 py-4 bg-[#D4AF37] text-black text-sm tracking-widest uppercase hover:bg-white transition-colors duration-300"
+                    >
                         Замовити
-                    </button>
+                    </a>
                 </motion.div>
             </div>
         </section>
